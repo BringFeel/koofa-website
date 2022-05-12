@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Lazer84;
+    src: url(https://lofibot.bringfeel.com/complementos/css/fonts/Lazer84.ttf);
+  }
+@font-face {
+    font-family: W95FA;
+    src: url(https://lofibot.bringfeel.com/complementos/css/fonts/W95FA.otf);
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	background: black;
+	font-size: 200%;
+}
+
+.centro {
+	background: none;
+	color: rgb(184, 184, 184);
+	text-align: center;
+    letter-spacing: 18px;
+	font-weight: bold;
+	font-family: Lazer84;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    height: 5rem;
+	transform: translate(-50%, -50%);
+}
+
+.vaporwave {
+	text-shadow: -.0625rem -.0625rem 0 #6ba1ff, .0625rem .0625rem 0 #FF1932;
+}
+
+.aesthetic-windows-95-button, .aesthetic-windows-95-button-title-bar, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start {
+    border: 3px solid;
+    border-top-color: #DFDFDF;
+    border-left-color: #DFDFDF;
+    border-bottom-color: #808080;
+    border-right-color: #808080;
+    box-shadow: 1px 1px 0 0 #000;
+    color: #000;
+    background-color: #BFBFBF;
+    font-family: W95FA;
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-left: 250px;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 3px;
+ }
+    .aesthetic-windows-95-button button, .aesthetic-windows-95-button-title-bar button, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start button {
+      background: none;
+      color: inherit;
+      border: none;
+      font: inherit;
+      cursor: pointer;
+      outline: none;
+      padding: 3px;
+ }
+      .aesthetic-windows-95-button button:focus, .aesthetic-windows-95-button-title-bar button:focus, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start button:focus {
+        outline: 1px dashed #000; }
+    .aesthetic-windows-95-button:active, .aesthetic-windows-95-button-title-bar:active, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start:active {
+      transform: translateY(1px);
+      box-shadow: 1px 1px #000; }
+    .aesthetic-windows-95-button:focus, .aesthetic-windows-95-button-title-bar:focus, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start:focus {
+      outline: none; }
