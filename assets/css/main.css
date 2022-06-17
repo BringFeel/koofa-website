@@ -3915,7 +3915,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #e44c65;
+						background: #FF1932;
 						color: rgba(255, 255, 255, 0.5);
 						content: '☰';
 						display: block;
