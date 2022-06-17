@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 @font-face {
     font-family: Lazer84;
-    src: url(https://lofibot.bringfeel.com/complementos/css/fonts/Lazer84.ttf);
+    src: url(https://lofibot.bringfeel.com/assets/css/fonts/Lazer84.ttf);
   }
 @font-face {
     font-family: W95FA;
-    src: url(https://lofibot.bringfeel.com/complementos/css/fonts/W95FA.otf);
+    src: url(https://lofibot.bringfeel.com/assets/css/fonts/W95FA.otf);
   }
 
 html, body, div, span, applet, object,
