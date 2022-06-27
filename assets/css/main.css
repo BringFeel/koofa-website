@@ -4553,6 +4553,10 @@ input, select, textarea {
   text-align: center;
 }
 	
+                        .vaporwave {
+				text-shadow: -.0625rem -.0625rem 0 #6ba1ff, .0625rem .0625rem 0 #FF1932;
+			}
+
 			* {
 				margin: 0;
 				box-sizing: border-box;
