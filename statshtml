@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	[Si, le doy creditos al creador de la plantilla rey]
+-->
+<html>
+	<head>
+		<title>Lo-Fi Bot • Stats</title>
+		<link rel="shortcut icon" href="https://lofibot.bringfeel.com/logos/logo-64-new.png" type="image/x-icon" />
+        <meta property="og:title" content="Lo-Fi Bot • Stats">
+        <meta property="og:url" content="https://lofibot.bringfeel.com/stats">
+        <meta name="theme-color" content="#FF1932">
+    	<meta property="og:image" content="https://lofibot.bringfeel.com/logos/logo-512-new.png">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="lofibot.bringfeel.com">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://lofibot.bringfeel.com/assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="https://lofibot.bringfeel.com/">Lo-Fi Bot</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="https://lofibot.bringfeel.com/">Menu</a></li>
+						<li><a href="https://lofibot.bringfeel.com/links/invite">Invite</a></li>
+						<li><a href="https://lofibot.bringfeel.com/commands">Commands</a></li>
+						<li><a href="https://lofibot.bringfeel.com/stats" class="button primary">Stats</a></li>
+						<li><a href="https://lofibot.bringfeel.com/support" >Support</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h10 class="vaporwave">STATS</h10>
+						</header>
+
+						<!-- Text -->
+						<section>
+							<div class="table-wrapper">
+								<p><span id="stapi" style="color:#FF0000;">You sent too many requests to the api.</span></p>
+								<table class="alt">
+									<tbody>
+										<tr>
+											<td>Estado</td>
+											<td><span id="status" style="color:#00ff3c";><b style="color:#FF0000";>Offline</b></span></td>
+										</tr>
+									</tbody>
+								</table>
+								<table class="alt">					
+										<h2 class="major" style="text-align: center;">Bot</h2>
+									<tbody>
+										<tr>
+											<td>Total Servers</td>
+											<td><span id="servers">---</span></td>
+										</tr>
+										<tr>
+											<td>Total Users</td>
+											<td><span id="usr">---</span></td>
+										</tr>
+									</tbody>
+								</table>
+								<table class="alt">
+										<h2 class="major" style="text-align: center;">System</h2>
+									<tbody>
+										<tr>
+											<td>Used Ram</td>
+											<td><span id="ru">---</span></td>
+										</tr>
+										<tr>
+											<td>Freen Ram</td>
+											<td><span id="rl">---</span></td>
+										</tr>
+										<tr>
+											<td>Total Ram</td>
+											<td><span id="rt">---</span></td>
+										</tr>
+										<tr>
+											<td>Network Usage</td>
+											<td><span id="nu">---</span></td>
+										</tr>
+										<tr>
+											<td>Discord.js</td>
+											<td><span id="djs">---</span></td>
+										</tr>
+										<tr>
+											<td>Node.js</td>
+											<td><span id="njs">---</span></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</section>
+</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="assets/js/api.js"></script>
+		<script src="https://lofibot.bringfeel.com/assets/js/jquery.scrolly.min.js"></script>
+		<script src="https://lofibot.bringfeel.com/assets/js/jquery.dropotron.min.js"></script>
+		<script src="https://lofibot.bringfeel.com/assets/js/jquery.scrollex.min.js"></script>
+		<script src="https://lofibot.bringfeel.com/assets/js/browser.min.js"></script>
+		<script src="https://lofibot.bringfeel.com/assets/js/breakpoints.min.js"></script>
+		<script src="https://lofibot.bringfeel.com/assets/js/util.js"></script>
+		<script src="https://lofibot.bringfeel.com/assets/js/main.js"></script>
+
+	</body>
+</html>
