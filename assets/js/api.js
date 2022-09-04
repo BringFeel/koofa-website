@@ -10,7 +10,7 @@ function fetchData() {
         $('#nu').text(`${Math.floor(data.data[0].bandwidth / 1048576)}Mb`);
         $('#usr').text(data.data[0].users);
         $('#njs').text('v18.2.0');
-        $('#djs').text('v13.8.1');
+        $('#djs').text('v14.3.0');
 
         if (data.error === 'false') {
         $('#status').text('Offline');
