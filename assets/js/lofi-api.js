@@ -40,7 +40,7 @@ fetchData();
 
 const audioPlayer = document.querySelector(".audio-player");
 const audio = new Audio(
-  "http://88.99.195.180:8043/stream"
+  "https://lfhh.radioca.st/stream"
 );
 
 //click on timeline to skip around
