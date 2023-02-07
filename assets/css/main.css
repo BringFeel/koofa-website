@@ -85,7 +85,7 @@ input, select, textarea {
 
 	html, body {
 		background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.541) 0%, rgba(0, 0, 0, 0.541) 100%),
-        url('https://koofa.bringfeel.com/assets/css/background.gif');
+        url('https://koofa.bringfeel.com.ar/assets/css/background.gif');
         background-size: cover;
 		background-repeat: no-repeat;
         background-attachment: fixed;
