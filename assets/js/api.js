@@ -10,7 +10,7 @@
               method: 'GET',
               headers: {
                 'Content-Type': 'application/json',
-                'Origin': 'http://localhost:8080/',
+                'Origin': 'https://koofa.bringfeel.com.ar',
               },
             };
             
