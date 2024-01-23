@@ -24,7 +24,7 @@
             
             const dataset1 = {
                 label: data.charts[0].name,
-                data: parseFloat(data.charts[0].data) + " " + "Mb",
+                data: data.charts[0].data,
                 borderColor: 'rgba(248, 37, 37, 0.8)',
                 fill: false,
                 tension: 0.1
