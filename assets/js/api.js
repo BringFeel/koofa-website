@@ -4,7 +4,7 @@ const discordapi = document.querySelector("#discordapi");
 const system = document.querySelector("#system");
 const bandwidth = document.querySelector("#bandwidth");
 
-const url = 'https://cors.unmutedte.ch/https://disstat-api.tomatenkuchen.com/api/bots/chitopanbot?timezone=America/Buenos_Aires&locale=es-419&start=2023-07-17T0000&dataPoints=90';
+const url = 'https://cors.unmutedte.ch/https://disstat-api.tomatenkuchen.com/api/bots/koofa?timezone=America/Buenos_Aires&locale=es-419&start=2023-07-17T0000&dataPoints=90';
 
 const requestOptions = {
   method: 'GET',
