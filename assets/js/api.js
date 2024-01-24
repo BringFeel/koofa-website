@@ -10,7 +10,7 @@ const requestOptions = {
   method: 'GET',
   headers: {
     'Content-Type': 'application/json',
-    'Origin': 'https://chitopanbot.bringfeel.com.ar',
+    'Origin': 'https://koofa.bringfeel.com.ar',
   },
 };
 
@@ -46,7 +46,7 @@ const dataset2 = {
 };
 
 const dataset3 = {
-    label: "ChitoPanBOT to Discord API",
+    label: "Koofa to Discord API",
     data: data.charts[2].data,
     borderColor: "#FF1932",
     fill: false,
@@ -353,7 +353,7 @@ function fetchDataInfo() {
 
             var SubtitleChartDSAPI = {
 				display: true,
-				text: "ChitoPanBOT: " + data.charts[2].data[data.charts[2].data.length - 1] + "ms | Official Discord API: " + orderedValues[orderedValues.length - 1] + "ms",
+				text: "Koofa: " + data.charts[2].data[data.charts[2].data.length - 1] + "ms | Official Discord API: " + orderedValues[orderedValues.length - 1] + "ms",
                 color: "#ffffffbf",
                 position: "bottom"
 			}
